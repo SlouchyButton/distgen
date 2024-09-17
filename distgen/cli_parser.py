@@ -2,7 +2,7 @@
 
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
-from importlib.metadata import version, PackageNotFoundError
+from importlib_metadata import version, PackageNotFoundError
 
 try:
     VERSION = version("distgen")
